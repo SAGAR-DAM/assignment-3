@@ -1,0 +1,9 @@
+** For the Newton Raphson method, while using -1 as the initial seed, the iterations are going round and round about a minima 
+and is failed to converge after a large no of iterations. But for seed = -0.1 the result is obtained and the value is also 
+matching with the bisection value.
+
+** The unified graphs of all Spline and Lagrange interpolations are given as the png file. However I have modified the code before 
+uploding to git such that it will give the graphs spearately at runtime now. 
+
+** The reason for sin(cos(exp(root)))!=0 is explained in the python file itself as documentation. Here root= solution obtained 
+from bisection.
